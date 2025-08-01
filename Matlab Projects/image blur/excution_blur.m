@@ -1,4 +1,4 @@
-function output = blur(img,w)
+function output = blur_func(img,w)
 mat = double(img);
 k = 2*w+1;
 [row,col] = size(img);
